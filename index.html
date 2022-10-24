@@ -1,18 +1,54 @@
 <!DOCTYPE html>
+    
     <html>
         <head>
             <meta charset="UTF=8"></meta>
+            <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+            </script>
             <title>安安你好</title>
+            
         </head>
+        <script>
+                $(document).ready(function() {
+                $(".btn").click(function(){
+                $(".btn").css("color", "red");
+                $(".btn").click(function(){
+                $(".btn").css("color", "blue");
+                
+            });
+            });
+                
+                });
+                        
+            </script>
+        
         <body>
+            
             <style>
-                h2 {
-                  color: red;
+                h3 {
+                  color: pink;
+                  text-align: center;
                 }
-              </style>
-            <h2>嗨! 這是我的網頁~~~~</h2>
-            <p>
-                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
-            </p>
+                h4 {
+                    color: rgb(220, 65, 91);
+                  text-align: center;
+                }
+                .btn {
+                    vertical-align: middle;  
+                }
+                 
+            </style>
+                <h3 class="text-primary text-center">嗨! 這是我的網頁~~~~</h3>
+                <div style="text-align: center;">
+                <img src="DDT.png"
+                         title="彈彈堂好好玩">
+                </div>
+                <h4 >點擊下方按鈕</h4>
+                <div style="text-align: center;">
+                <button class="btn btn-default target" id="target1">點一下</button>
+                </div>
+            
+                    
         </body>
     </html>
+
